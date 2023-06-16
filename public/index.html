@@ -19,8 +19,9 @@
   </head>
   
 <body>
+  
   <div class="container">     
-     <!--Header  -->
+<!--Header  -->
    <div class="row">
 <header>
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -46,53 +47,23 @@
 </div>
 </nav>
 </header>
+</div>
 <!-- Body -->
 <!--     Slide Swiper     -->
-<div class="swiper col-12">
-   <!-- Additional required wrapper -->
-   <div class="swiper-wrapper">
-     <!-- Slides -->
-     <div class="swiper-slide">
-       <div class="img">
-         <img
-           src="https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg"
-           alt=""
-         />
-       </div>
-     </div>
-
-     <div class="swiper-slide">
-       <div class="img">
-         <img
-           src="https://www.ldg.com.vn/media/uploads/uploads/21204723-hinh-anh-gai-xinh-2.jpg"
-           alt=""
-         />
-       </div>
-     </div>
-     <div class="swiper-slide">
-       <div class="img">
-         <img
-           src="https://kenh14cdn.com/thumb_w/660/2020/5/28/0-1590653959375414280410.jpg"
-           alt=""
-         />
-       </div>
-     </div>
-   </div>
-   <!-- If we need pagination -->
-   <div class="swiper-pagination"></div>
-
-   <!-- If we need navigation buttons -->
-   <div class="swiper-button-prev"></div>
-   <div class="swiper-button-next"></div>
-
-   <!-- If we need scrollbar -->
-   <div class="swiper-scrollbar"></div>
- </div>
+<div class="row">
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    loop="true">
+    <swiper-slide><img src="https://lamia.com.vn/storage/banner-sale/1770x720-18-1.jpg" class="d-block img-fluid" alt="" /></swiper-slide>
+    <swiper-slide><img src="https://lamia.com.vn/storage/banner-sale/1770x720-22.jpg" class="d-block img-fluid" alt="" /></swiper-slide>
+    <swiper-slide><img src="https://lamia.com.vn/storage/banner-sale/1770x720-chua-boc-1.jpg" class="d-block img-fluid" alt="" /></swiper-slide>
+  </swiper-container>
 </div>
+
+
 <!-- Main -->
  <!-- Product 1 -->     
-<div class="row">
-     <div class="section-title col-12 h1 text-center mt-2">Áo Dài Truyền Thống</div>
+<div class="row mt-2">
+     <div class="section-title col-12 h2 text-center text-uppercase text-decoration-underline">Áo Dài Truyền Thống</div>
      <!-- 1 Hàng - 4 cột -->
      <div class="col-lg-4 col-md-6 col-xl-3">
      <div class="card">
@@ -190,32 +161,36 @@
        
      </div>
   </div>
+
 <!--  Quần và phụ kiện  -->
-
 <div class="row mt-2">
-
-   <div class="col-xs-12 col-md-6">
+<!-- card 1 -->
+<div class="col-xs-12 col-md-6">
      <div class="card">
-       <img src="https://theme.hstatic.net/1000136076/1000542013/14/xxx_7.jpg?v=780" class="card-img-top" alt="Product Image">
-       <div class="card-body">
-         <h5 class="card-title">Phụ kiện</h5>
-         <p class="card-text">Mua ngay</p>
-       </div>
-     </div>
+      <div class="thumnail-card position-relative">
+       <img src="https://theme.hstatic.net/1000136076/1000542013/14/xxx_7.jpg?v=780" class="card-img-top" alt="Product Image"></div>
+       <div class="card-body position-absolute translate-middle top-50 start-50">
+        <h3 class="text-center text-white">Phụ kiện</h3>
+        <p class="text-center text-white">Xem tất cả >>></p>
+      </div>
+    </div>
+  </div>
+<!-- card 2 -->
+<div class="col-xs-12 col-md-6">
+  <div class="card">
+   <div class="thumnail-card position-relative">
+    <img src="https://theme.hstatic.net/1000136076/1000542013/14/xxx_6.jpg?v=780" class="card-img-top" alt="Product Image"></div>
+    <div class="card-body position-absolute translate-middle top-50 start-50">
+     <h3 class="text-center text-white">Quần áo dài</h3>
+     <p class="text-center text-white">Xem tất cả >>></p>
    </div>
-     <div class="col-xs-12 col-md-6">
-     <div class="card">
-       <img src="https://theme.hstatic.net/1000136076/1000542013/14/xxx_6.jpg?v=780" class="card-img-top" alt="Product Image">
-       <div class="card-body">
-         <h5 class="card-title">Quần áo dài</h5>
-         <p class="card-text">Mua ngay</p>
-       </div>
-     </div>
-   </div> 
+ </div>
+</div>
   </div> 
+
  <!-- Product 2 -->     
-<div class="row">
-  <div class="section-title col-12 h1 text-center mt-2">NEW ARRIVAL</div>
+<div class="row mt-2">
+  <div class="section-title col-12 h2 text-center text-uppercase text-decoration-underline">NEW ARRIVAL</div>
   <!-- 1 Hàng - 4 cột -->
   <div class="col-lg-4 col-md-6 col-xl-3">
   <div class="card">
@@ -314,7 +289,7 @@
   </div>
 </div>  
 <!-- Footer -->
-<section class="footer bg-black mt-2">
+<section class="footer bg-primary mt-2">
 <div class="row">
 
   <!--  -->
@@ -322,12 +297,12 @@
 
     <div class="left-footer__title text-uppercase h5 text-white h4 ml-3 mt-3">Giới thiệu</div>
     <div class="list-left__footer">
-        <ul class="list-group list-group-flush">
-<a href="#" class="list-group-item list-group-item-action">Về áo dài Hải Yến</a>
-<a href="#" class="list-group-item list-group-item-action">Tuyển dụng</a>
-<a href="#" class="list-group-item list-group-item-action">Hệ thống cửa hàng</a>
-<a href="#" class="list-group-item list-group-item-action">Về chúng tôi</a>
-<a href="#" class="list-group-item list-group-item-action">Liên hệ</a>
+        <ul class="list-group">
+<a href="#" class="list-group-item">Về áo dài Hải Yến</a>
+<a href="#" class="list-group-item">Tuyển dụng</a>
+<a href="#" class="list-group-item">Hệ thống cửa hàng</a>
+<a href="#" class="list-group-item">Về chúng tôi</a>
+<a href="#" class="list-group-item">Liên hệ</a>
         </ul>
       </div>
   </div>
@@ -336,16 +311,19 @@
 
     <div class="left-footer__title text-uppercase h5 text-white h4 ml-3 mt-3">CHÍNH SÁCH</div>
     <div class="list-left__footer">
-        <ul class="list-group list-group-flush">
-<a href="#" class="list-group-item list-group-item-action">Chính sách thanh toán</a>
-<a href="#" class="list-group-item list-group-item-action">Chính sách vận chuyển</a>
-<a href="#" class="list-group-item list-group-item-action">Chính sách bảo mật</a>
-<a href="#" class="list-group-item list-group-item-action">Chính sách đổi trả</a>
+        <ul class="list-group">
+<a href="#" class="list-group-item">Chính sách thanh toán</a>
+<a href="#" class="list-group-item">Chính sách vận chuyển</a>
+<a href="#" class="list-group-item">Chính sách bảo mật</a>
+<a href="#" class="list-group-item">Chính sách đổi trả</a>
         </ul>
       </div>
   </div>
   <div class="col-lg-4 col-md-6 col-xl-4">  
-3
+    <div class="left-footer__title text-uppercase h5 text-white h4 ml-3 mt-3">Fanpage</div>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0&appId=146551202661232&autoLogAppEvents=1" nonce="5XfzkMjU"></script>
+    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100063455232312" data-tabs="timeline" data-width="420" data-height="120" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/profile.php?id=100063455232312" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100063455232312">Áo dài Hải Yến</a></blockquote></div>
 
 </div>
 </div>
@@ -353,9 +331,10 @@
 <!--  -->
 </div> 
 <script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 
 </html>

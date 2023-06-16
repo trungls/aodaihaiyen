@@ -19,4 +19,5 @@ const swiper = new Swiper(".swiper", {
       el: ".swiper-scrollbar"
     }
   });
+  // JS card sp
   

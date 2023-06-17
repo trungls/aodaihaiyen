@@ -12,7 +12,8 @@
             "id": 1 ,
             "title": "Sản phẩm" ,
             "thumnail": "/image/...png",
-            "price": 1000000        
+            "price": 699999,
+            "sale": 899000  
         }
     ]
 }

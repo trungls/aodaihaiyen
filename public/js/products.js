@@ -27,7 +27,7 @@ function createProductCard(product) {
 
   // Tạo các phần tử HTML cho card sản phẩm
   const col = document.createElement('div');
-  col.className = 'col-lg-4 col-md-6 col-xl-3';
+  col.className = 'col-lg-4 col-md-6 col-xl-3 mt-2';
 
   const card = document.createElement('div');
   card.className = 'card';

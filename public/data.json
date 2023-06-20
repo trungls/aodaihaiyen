@@ -1,0 +1,44 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "price": 669000,
+      "salePrice": 899000
+    },
+    {
+      "id": 2,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "price": 669000,
+      "salePrice": 899000
+    },
+    {
+      "id": 3,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "price": 669000,
+      "salePrice": 899000
+    },
+    {
+      "id": 4,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "price": 669000,
+      "salePrice": 899000
+    },
+    {
+      "id": 5,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "price": 669000,
+      "salePrice": 899000
+    }
+  ]
+}

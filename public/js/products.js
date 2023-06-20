@@ -1,42 +1,67 @@
-fetch('data.json')
-.then(response => response.json())
-.then(data => {
-  const productCardsContainer = document.getElementById('product-cards');
+// Render card sản phẩm
+function renderProductCard(product) {
+  const card = document.createElement('div');
+  card.classList.add('card', 'col-md-4', 'col-lg-3', 'mb-4');
 
-  // Lặp qua danh sách sản phẩm
-  data.product.forEach(product => {
-    // Tạo các phần tử HTML tương ứng với thông tin sản phẩm
-    const card = document.createElement('div');
-    card.className = 'card';
+  const image = document.createElement('img');
+  image.src = product.image;
+  image.alt = 'Product Image';
+  image.classList.add('card-img-top');
 
-    const thumbnail = document.createElement('div');
-    thumbnail.className = 'card-thumnail';
+  const cardBody = document.createElement('div');
+  cardBody.classList.add('card-body');
 
-    const image = document.createElement('img');
-    image.src = product.image;
-    image.className = 'card-img-top';
-    image.alt = 'Product Image';
-    thumbnail.appendChild(image);
+  const title = document.createElement('h5');
+  title.classList.add('card-title', 'text-left', 'mt-1');
+  title.textContent = product.name;
 
-    const body = document.createElement('div');
-    body.className = 'card-body';
+  const price = document.createElement('div');
+  price.classList.add('card-price', 'd-inline', 'h5', 'mt-1');
+  price.textContent = `$${product.price}`;
 
-    const title = document.createElement('div');
-    title.className = 'card-title text-left h6 mt-1';
-    title.textContent = product.name;
-    body.appendChild(title);
+  const salePrice = document.createElement('div');
+  salePrice.classList.add('card-price-sale', 'd-inline', 'p-2', 'h6', 'text-danger', 'text-decoration-line-through');
+  salePrice.textContent = `$${product.salePrice}`;
 
-    const price = document.createElement('div');
-    price.className = 'card-price d-inline h5 mt-1';
-    price.textContent = product.price + '$';
-    body.appendChild(price);
+  const btnContainer = document.createElement('div');
+  btnContainer.classList.add('card-btn', 'mt-1', 'text-center');
 
-    // Thêm các phần tử vào thẻ card
-    card.appendChild(thumbnail);
-    card.appendChild(body);
+  const btn = document.createElement('a');
+  btn.href = '#';
+  btn.classList.add('btn', 'btn-primary');
+  btn.textContent = 'Thêm vào giỏ hàng';
 
-    // Thêm thẻ card vào container
-    productCardsContainer.appendChild(card);
-  });
-})
-.catch(error => console.log(error));
+  btnContainer.appendChild(btn);
+
+  cardBody.appendChild(title);
+  cardBody.appendChild(price);
+  cardBody.appendChild(salePrice);
+  cardBody.appendChild(btnContainer);
+
+  card.appendChild(image);
+  card.appendChild(cardBody);
+
+  return card;
+}
+
+// Render tất cả các card sản phẩm từ data.json
+function renderAllProductCards() {
+  const productCardContainer = document.getElementById('product-card');
+
+  // Fetch dữ liệu từ tệp JSON
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      // Lặp qua tất cả các sản phẩm và hiển thị card sản phẩm
+      data.forEach(product => {
+        const card = renderProductCard(product);
+        productCardContainer.appendChild(card);
+      });
+    })
+    .catch(error => {
+      console.error('Lỗi khi tải dữ liệu:', error);
+    });
+}
+
+// Gọi hàm để render tất cả các card sản phẩm
+renderAllProductCards();

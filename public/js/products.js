@@ -10,7 +10,7 @@ fetch('data.json')
     row.className = 'row';
 
     data.product
-    .filter(product => product.category === 'Áo dài' || product.category ==! 'Quần dài')
+    .filter(product => product.category === 'Áo dài')
     .forEach(product => {
       const col = createProductCard(product);
       row.appendChild(col);

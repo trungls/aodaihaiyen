@@ -22,187 +22,187 @@
       "id": 3,
       "name": "Áo Dài Cách Tân Tà Ngắn AD089",
       "description": "Mô tả sản phẩm",
-      "image": "https://lamia.com.vn/storage/ao-dai/ao-dai-cach-tan-ta-ngan-ad089-3.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-ad089-3.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Áo dài"
     },
     {
       "id": 4,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cách Tân Tà Ngắn Tay Lỡ AD087",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-ad087-5.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
+    },
+    {
+      "id": 5,
+      "name": "Áo Dài Cách Tân Tà Ngắn Tay Lỡ In Họa Tiết AD088",
+      "description": "Mô tả sản phẩm",
+      "image": "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Áo dài"
     },
     {
       "id": 5,
       "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+"image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
-    },
-    {
-      "id": 5,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
-      "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
-      "price": 669000,
-      "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 6,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cách Tân Tay Lỡ Lọa Tiết Hoa Sen AD086",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+"image": "img/Ao-dai/ao-dai-cach-tan-tay-lo-loa-tiet-hoa-sen-ad086-3.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 7,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cách Tân Tay Phồng Hoa Nhí AD084",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-tay-phong-hoa-nhi-ad084-4.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 8,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cách Tân Tay Phồng Hoa Nhí AD092",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-tay-phong-hoa-nhi-ad092-4.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Áo dài"
     },
     {
       "id": 9,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cách Tân Tay Phồng Tà Ngắn AD091",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-tay-phong-ta-ngan-ad091-4.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 10,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cổ Tròn Tay Cánh Tiên AD103",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-co-tron-tay-canh-tien-ad103-1.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Áo dài"
     },
     {
       "id": 11,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Cổ Tròn Tay Cánh Tiên AD105",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-co-tron-tay-canh-tien-ad105-2.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 12,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Đỏ Cổ Tròn Họa Tiết AD026",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-do-co-tron-hoa-tiet-ad026.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 13,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Lụa Dáng Xuông Phối Cúc Bên AD025",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-lua-dang-xuong-phoi-cuc-ben-ad025-5.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 14,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Lụa Gấm In Khổng Tước AD094",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-lua-gam-1.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 15,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Tay Phồng Thêu Họa Tiết AD102",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-tay-phong-theu-hoa-tiet-ad102-4.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 16,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Tơ Lụa AD069 Màu Đỏ Phối Hoa",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-to-lua-ad069-mau-do-phoi-hoa-2.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 17,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Truyền Thống AD076 Lụa Vân Gấm",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-truyen-thong-ad076-lua-van-gam-3.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 18,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD095",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-truyen-thong-in-hoa-tiet-6-1.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 19,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Truyền Thống Họa Tiết Tranh Vẽ Tay AD096",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-truyen-thong-in-hoa-tiet-11.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 20,
       "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-truyen-thong-in-hoa-tiet-ad085-2.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 21,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Áo Dài Truyền Thống Lụa Gấm AD107",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-truyen-thong-lua-gam-ad107-4-1.jpg",
       "price": 669000,
       "salePrice": 899000,
-      "category": "Quần dài"
+      "category": "Áo dài"
     },
     {
       "id": 22,
       "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
@@ -211,7 +211,7 @@
       "id": 23,
       "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
@@ -220,7 +220,7 @@
       "id": 24,
       "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
       "description": "Mô tả sản phẩm",
-      "image": "https://hhluxury.vn/storage/images/1KQupj5kraJIuMkCrMvidQqOtMPR1biMsuml3w52.jpg",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"

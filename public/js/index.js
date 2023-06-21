@@ -80,7 +80,10 @@ col.appendChild(card);
 card.appendChild(buttonDiv);
 return col;
 }
+// Produc 2
 
+
+// 
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",

@@ -13,12 +13,12 @@
       padding: 0;
     }
 
-    swiper-container {
+    .col swiper-container {
       width: 100%;
       height: 100%;
     }
 
-    swiper-slide {
+    .col swiper-slide {
       text-align: center;
       font-size: 18px;
       background: #fff;
@@ -27,14 +27,14 @@
       align-items: center;
     }
 
-    swiper-slide img {
+    .col swiper-slide img {
       display: block;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
 
-    swiper-container {
+    .col swiper-container {
       margin-left: auto;
       margin-right: auto;
     }

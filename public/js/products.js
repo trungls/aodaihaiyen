@@ -48,12 +48,12 @@ function createProductCard(product) {
 
 
   const priceElement = document.createElement('p');
-  priceElement.className = 'card-text mt-2';
-  priceElement.textContent = 'Price: ' + price;
+  priceElement.className = 'card-text mt-2 h6';
+  priceElement.textContent = 'Giá: ' + price;
 
   const salePriceElement = document.createElement('p');
-  salePriceElement.className = 'card-text mt-2';
-  salePriceElement.textContent = 'Sale Price: ' + salePrice;
+  salePriceElement.className = 'card-text mt-2 h5';
+  salePriceElement.textContent = 'Sale : ' + salePrice;
   
   const buttonDiv = document.createElement('div');
   buttonDiv.className = 'card-btn mb-2 text-center';

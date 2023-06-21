@@ -9,7 +9,9 @@ fetch('data.json')
     const row = document.createElement('div');
     row.className = 'row';
 
-    data.product.forEach(product => {
+    data.product
+    .filter(product => product.category === 'Áo dài' || product.category ==! 'Quần dài')
+    .forEach(product => {
       const col = createProductCard(product);
       row.appendChild(col);
     });
@@ -18,12 +20,12 @@ fetch('data.json')
     document.getElementById('product-card').appendChild(container);
   })
   .catch(error => {
-    console.error('Lỗi khi tải dữ liệu:', error);
+    console.error('Lỗi tải dữ liệu:', error);
   });
 
 // Hàm tạo card cho một sản phẩm
 function createProductCard(product) {
-  const { id, name, description, image, price, salePrice } = product;
+  const { id, name, image, price, salePrice } = product;
 
   // Tạo các phần tử HTML cho card sản phẩm
   const col = document.createElement('div');
@@ -44,28 +46,38 @@ function createProductCard(product) {
   productName.className = 'card-title';
   productName.textContent = name;
 
-  const productDescription = document.createElement('p');
-  productDescription.className = 'card-text';
-  productDescription.textContent = description;
 
   const priceElement = document.createElement('p');
-  priceElement.className = 'card-text';
+  priceElement.className = 'card-text mt-2';
   priceElement.textContent = 'Price: ' + price;
 
   const salePriceElement = document.createElement('p');
-  salePriceElement.className = 'card-text';
+  salePriceElement.className = 'card-text mt-2';
   salePriceElement.textContent = 'Sale Price: ' + salePrice;
+  
+  const buttonDiv = document.createElement('div');
+  buttonDiv.className = 'card-btn mb-2 text-center';
 
+  const addButton = document.createElement('a');
+  addButton.href = '#';
+  addButton.className = 'btn btn-primary';
+  addButton.textContent = 'Thêm vào giỏ hàng';
+  
   // Gắn các phần tử con vào card
   cardBody.appendChild(productName);
-  cardBody.appendChild(productDescription);
   cardBody.appendChild(priceElement);
   cardBody.appendChild(salePriceElement);
+  cardBody.appendChild(addButton);
+
+  buttonDiv.appendChild(addButton);
 
   card.appendChild(imageElement);
   card.appendChild(cardBody);
 
   col.appendChild(card);
-
+  card.appendChild(buttonDiv);
   return col;
 }
+
+
+

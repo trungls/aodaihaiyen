@@ -5,8 +5,8 @@
       "name": "Áo Dài Truyền Thống Lụa In Họa Tiết AD057",
       "description": "",
       "image": "img/Ao-dai/Áo Dài Truyền Thống Lụa In Họa Tiết AD057 AD058, AD059.jpg",
-      "price": 669000,
-      "salePrice": 899000,
+      "price": "669.000đ",
+      "salePrice": "899.000đ",
       "category": "Áo dài"
     },
     {
@@ -17,7 +17,7 @@
       "price": 669000,
       "salePrice": 899000,
       "category": "Áo dài"
-    },
+    },  
     {
       "id": 3,
       "name": "Áo Dài Cách Tân Tà Ngắn AD089",

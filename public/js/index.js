@@ -1,25 +1,4 @@
-const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: ".swiper-pagination"
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: ".swiper-scrollbar"
-    }
-  });
-  // JS card sp
+
  
   // Lấy dữ liệu từ file data.json
 fetch('data.json')
@@ -33,7 +12,7 @@ fetch('data.json')
   row.className = 'row';
 
   data.product
-  .filter(product => product.id <= 10 && product.category === 'Áo dài')
+  .filter(product => product.id <= 11 && product.category === 'Áo dài')
   .forEach(product => {
     const col = createProductCard(product);
     row.appendChild(col);
@@ -102,5 +81,28 @@ card.appendChild(buttonDiv);
 return col;
 }
 
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination"
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar"
+  }
+});
+// JS card sp
 
 

@@ -81,7 +81,6 @@ card.appendChild(buttonDiv);
 return col;
 }
 
-
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",

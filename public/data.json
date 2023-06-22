@@ -225,5 +225,35 @@
       "salePrice": 899000,
       "category": "Quần dài"
     }
+    ,
+    {
+      "id": 25,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Quần dài"
+    }
+    ,
+    {
+      "id": 26,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Quần dài"
+    }
+    ,
+    {
+      "id": 27,
+      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "description": "Mô tả sản phẩm",
+      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Quần dài"
+    }
   ]
 }

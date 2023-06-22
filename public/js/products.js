@@ -1,4 +1,5 @@
-async function fetchData() {
+// Tải và hiển thị dữ liệu cho khối "Áo dài"
+async function fetchAoDaiData() {
   try {
     const response = await fetch('data.json');
     const data = await response.json();
@@ -23,6 +24,7 @@ async function fetchData() {
   }
 }
 
+// Tạo thẻ sản phẩm
 function createProductCard(product) {
   const { id, name, image, price, salePrice } = product;
 
@@ -75,5 +77,35 @@ function createProductCard(product) {
   return col;
 }
 
-// Gọi hàm fetchData để lấy và hiển thị dữ liệu
-fetchData();
+// Gọi hàm fetchAoDaiData để tải và hiển thị dữ liệu cho khối "Áo dài"
+fetchAoDaiData();
+
+
+// Tải và hiển thị dữ liệu cho khối "Quần dài"
+async function fetchQuanDaiData() {
+  try {
+    const response = await fetch('data.json');
+    const data = await response.json();
+
+    const container = document.createElement('div');
+    container.className = 'container';
+
+    const row = document.createElement('div');
+    row.className = 'row';
+
+    data.product
+      .filter(product => product.category === 'Quần dài')
+      .forEach(product => {
+        const col = createProductCard(product);
+        row.appendChild(col);
+      });
+
+    container.appendChild(row);
+    document.getElementById('product-card-2').appendChild(container);
+  } catch (error) {
+    console.error('Lỗi tải dữ liệu:', error);
+  }
+}
+
+// Gọi hàm fetchQuanDaiData để tải và hiển thị dữ liệu cho khối "Quần dài"
+fetchQuanDaiData();

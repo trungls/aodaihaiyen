@@ -1,7 +1,7 @@
 .container-swiper,
 .row {
       position: relative;
-      height: 100%;
+      height: 80%;
     }
 
     .col {
@@ -13,10 +13,10 @@
       padding: 0;
     }
 
-    /* .col swiper-container {
+    .col swiper-container {
       width: 80%;
       height: auto;
-    } */
+    }
 
     .col swiper-slide {
       text-align: center;
@@ -29,8 +29,8 @@
 
     .col swiper-slide img {
       display: block;
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: auto;
       object-fit: cover;
     }
 

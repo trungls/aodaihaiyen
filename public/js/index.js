@@ -1,19 +1,8 @@
-// Lấy dữ liệu từ file data.json bằng async/await
-async function getData() {
+// Tải và hiển thị dữ liệu cho khối "Áo dài"
+async function fetchAoDaiData() {
   try {
     const response = await fetch('data.json');
     const data = await response.json();
-    return data.product;
-  } catch (error) {
-    console.error('Lỗi tải dữ liệu:', error);
-    return [];
-  }
-}
-
-// Hiển thị danh sách sản phẩm
-async function displayProducts() {
-  try {
-    const products = await getData();
 
     const container = document.createElement('div');
     container.className = 'container';
@@ -21,8 +10,8 @@ async function displayProducts() {
     const row = document.createElement('div');
     row.className = 'row';
 
-    products
-      .filter(product => product.id <= 11 && product.category === 'Áo dài')
+    data.product
+      .filter(product => product.category === 'Áo dài')
       .forEach(product => {
         const col = createProductCard(product);
         row.appendChild(col);
@@ -31,11 +20,11 @@ async function displayProducts() {
     container.appendChild(row);
     document.getElementById('product-card').appendChild(container);
   } catch (error) {
-    console.error('Lỗi hiển thị sản phẩm:', error);
+    console.error('Lỗi tải dữ liệu:', error);
   }
 }
 
-// Hàm tạo card cho một sản phẩm
+// Tạo thẻ sản phẩm
 function createProductCard(product) {
   const { id, name, image, price, salePrice } = product;
 
@@ -85,29 +74,42 @@ function createProductCard(product) {
 
   col.appendChild(card);
   card.appendChild(buttonDiv);
-
   return col;
 }
 
-// Khi tài liệu đã được tải xong
-document.addEventListener('DOMContentLoaded', async () => {
+// Gọi hàm fetchAoDaiData để tải và hiển thị dữ liệu cho khối "Áo dài"
+fetchAoDaiData();
+
+
+// Tải và hiển thị dữ liệu cho khối "Quần dài"
+async function fetchQuanDaiData() {
   try {
-    await displayProducts();
+    const response = await fetch('data.json');
+    const data = await response.json();
 
-    // Xử lý sự kiện khi click vào sản phẩm
-    const productCards = document.querySelectorAll('.card-product');
+    const container = document.createElement('div');
+    container.className = 'container';
 
-    productCards.forEach(productCard => {
-      productCard.addEventListener('click', () => {
-        const productId = productCard.dataset.productId;
-        // Chuyển hướng đến trang mới hiển thị chi tiết sản phẩm
-        window.location.href = `product-detail.html?id=${productId}`;
+    const row = document.createElement('div');
+    row.className = 'row';
+
+    data.product
+      .filter(product => product.category === 'Quần dài')
+      .forEach(product => {
+        const col = createProductCard(product);
+        row.appendChild(col);
       });
-    });
+
+    container.appendChild(row);
+    document.getElementById('product-card-2').appendChild(container);
   } catch (error) {
-    console.error('Lỗi khởi tạo trang:', error);
+    console.error('Lỗi tải dữ liệu:', error);
   }
-});
+}
+
+// Gọi hàm fetchQuanDaiData để tải và hiển thị dữ liệu cho khối "Quần dài"
+fetchQuanDaiData();
+
 
 // Khởi tạo Swiper
 const swiper = new Swiper(".swiper", {

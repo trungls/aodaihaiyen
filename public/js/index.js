@@ -11,7 +11,7 @@ async function fetchAoDaiData() {
     row.className = 'row';
 
     data.product
-      .filter(product => product.category === 'Áo dài')
+      .filter(product => product.id <= 11 && product.category === 'Áo dài')
       .forEach(product => {
         const col = createProductCard(product);
         row.appendChild(col);

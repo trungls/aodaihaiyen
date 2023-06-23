@@ -62,6 +62,13 @@ function createProductCard(product) {
   addButton.className = 'btn btn-primary';
   addButton.textContent = 'Thêm vào giỏ hàng';
 
+    // Thêm sự kiện click cho thẻ sản phẩm
+    card.addEventListener('click', () => {
+      // Điều hướng đến trang mới với thông tin sản phẩm
+      const productUrl = `product-detail.html?id=${product.id}`; // Thay 'product.html' bằng URL của trang mới
+      window.location.assign(productUrl);
+    }); 
+
   cardBody.appendChild(productName);
   cardBody.appendChild(priceElement);
   cardBody.appendChild(salePriceElement);

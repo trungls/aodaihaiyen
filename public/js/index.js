@@ -26,6 +26,7 @@ async function fetchAoDaiData() {
 
 // Tạo thẻ sản phẩm
 function createProductCard(product) {
+  
   const { id, name, image, price, salePrice } = product;
 
   const col = document.createElement('div');
@@ -61,6 +62,15 @@ function createProductCard(product) {
   addButton.href = '#';
   addButton.className = 'btn btn-primary';
   addButton.textContent = 'Thêm vào giỏ hàng';
+
+  
+  // Thêm sự kiện click cho thẻ sản phẩm
+  card.addEventListener('click', () => {
+    // Điều hướng đến trang mới với thông tin sản phẩm
+    const productUrl = `products.html?id=${product.id}`; // Thay 'product.html' bằng URL của trang mới
+    window.location.assign(productUrl);
+  }); 
+
 
   cardBody.appendChild(productName);
   cardBody.appendChild(priceElement);
@@ -133,3 +143,4 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-scrollbar"
   }
 });
+

@@ -67,7 +67,7 @@ function createProductCard(product) {
   // Thêm sự kiện click cho thẻ sản phẩm
   card.addEventListener('click', () => {
     // Điều hướng đến trang mới với thông tin sản phẩm
-    const productUrl = `products.html?id=${product.id}`; // Thay 'product.html' bằng URL của trang mới
+    const productUrl = `product-detail.html?id=${product.id}`; // Thay 'product.html' bằng URL của trang mới
     window.location.assign(productUrl);
   }); 
 

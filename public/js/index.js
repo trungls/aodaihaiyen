@@ -1,28 +1,4 @@
-// Tải và hiển thị dữ liệu cho khối "Áo dài"
-async function fetchAoDaiData() {
-  try {
-    const response = await fetch('data.json');
-    const data = await response.json();
 
-    const container = document.createElement('div');
-    container.className = 'container';
-
-    const row = document.createElement('div');
-    row.className = 'row';
-
-    data.product
-      .filter(product => product.id <= 11 && product.category === 'Áo dài')
-      .forEach(product => {
-        const col = createProductCard(product);
-        row.appendChild(col);
-      });
-
-    container.appendChild(row);
-    document.getElementById('product-card').appendChild(container);
-  } catch (error) {
-    console.error('Lỗi tải dữ liệu:', error);
-  }
-}
 
 // Tạo thẻ sản phẩm
 function createProductCard(product) {
@@ -52,7 +28,7 @@ function createProductCard(product) {
   priceElement.textContent = ' ' + price;
 
   const salePriceElement = document.createElement('p');
-  salePriceElement.className = 'card-text mt-2 d-flex justify-content-end h6 text-danger text-decoration-line-through';
+  salePriceElement.className = 'card-price mt-2 d-flex justify-content-end h6 text-danger text-decoration-line-through';
   salePriceElement.textContent = ' ' + salePrice;
 
   const buttonDiv = document.createElement('div');
@@ -91,59 +67,30 @@ function createProductCard(product) {
 fetchAoDaiData();
 
 
-// Tải và hiển thị dữ liệu cho khối "Quần dài"
-async function fetchQuanDaiData() {
-  try {
-    const response = await fetch('data.json');
-    const data = await response.json();
-
-    const container = document.createElement('div');
-    container.className = 'container';
-
-    const row = document.createElement('div');
-    row.className = 'row';
-
-    data.product
-      .filter(product => product.category === 'Quần dài')
-      .forEach(product => {
-        const col = createProductCard(product);
-        row.appendChild(col);
-      });
-
-    container.appendChild(row);
-    document.getElementById('product-card-2').appendChild(container);
-  } catch (error) {
-    console.error('Lỗi tải dữ liệu:', error);
-  }
-}
-
-// Gọi hàm fetchQuanDaiData để tải và hiển thị dữ liệu cho khối "Quần dài"
-fetchQuanDaiData();
-
-
-// Khởi tạo Swiper
-const swiper = new Swiper(".swiper", {
-  // Các tùy chọn tùy ý
-  direction: "horizontal",
-  loop: true,
-
-  // Nếu cần sử dụng pagination
-  pagination: {
-    el: ".swiper-pagination"
-  },
-
-  // Nút điều hướng
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
-
-  // Và nếu cần thanh cuộn
-  scrollbar: {
-    el: ".swiper-scrollbar"
-  }
-});
 
 
 
 
+  
+  // Khởi tạo Swiper
+  const swiper = new Swiper(".swiper", {
+    // Các tùy chọn tùy ý
+    direction: "horizontal",
+    loop: true,
+  
+    // Nếu cần sử dụng pagination
+    pagination: {
+      el: ".swiper-pagination"
+    },
+  
+    // Nút điều hướng
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+  
+    // Và nếu cần thanh cuộn
+    scrollbar: {
+      el: ".swiper-scrollbar"
+    }
+  });

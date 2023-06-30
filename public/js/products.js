@@ -1,4 +1,4 @@
-// Tải và hiển thị dữ liệu cho khối "Áo dài"
+// Tải và hiển thị dữ liệu 
 async function fetchAoDaiData() {
   try {
     const response = await fetch('data.json');
@@ -11,7 +11,7 @@ async function fetchAoDaiData() {
     row.className = 'row';
 
     data.product
-      .filter(product => product.category === 'Áo dài')
+      .filter(product => product.id)
       .forEach(product => {
         const col = createProductCard(product);
         row.appendChild(col);

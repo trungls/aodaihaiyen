@@ -51,7 +51,7 @@ function createProductCard(product) {
   priceElement.textContent = ' ' + price;
 
   const salePriceElement = document.createElement('p');
-  salePriceElement.className = 'card-text mt-2 d-flex justify-content-end h6 text-danger text-decoration-line-through';
+  salePriceElement.className = 'card-price mt-2 d-flex justify-content-end h6 text-danger text-decoration-line-through';
   salePriceElement.textContent = ' ' + salePrice;
 
   const buttonDiv = document.createElement('div');

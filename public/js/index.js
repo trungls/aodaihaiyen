@@ -1,4 +1,3 @@
-
   // Khởi tạo Swiper
   const swiper = new Swiper(".swiper", {
     // Các tùy chọn tùy ý

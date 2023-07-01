@@ -60,3 +60,4 @@ document.addEventListener("DOMContentLoaded", function () {
   // Gọi hàm hiển thị sản phẩm khi trang được tải
   displayProduct();
 });
+

@@ -200,27 +200,27 @@
     },
     {
       "id": 22,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Đầm Đuôi Cá Cổ Tàu Phối Cúc Ngực LD186",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-duoi-ca-co-tau-phoi-cuc-nguc-ld186-3.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
     },
     {
       "id": 23,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Đầm Dáng Xòe Tay Phồng Phối Dây Đan Ngực LD202",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-dang-xoe-tay-phong-phoi-day-dan-nguc-ld202-3.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
     },
     {
       "id": 24,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Đầm Dáng Xòe Phối Cổ Vuông Cao LD195",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-dang-xoe-phoi-co-vuong-cao-ld195-3.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
@@ -228,9 +228,9 @@
     ,
     {
       "id": 25,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Đầm Maxi Họa Tiết Sóng Biển LD183",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-dang-xoe-phoi-tay-phong-ld197-2.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
@@ -238,9 +238,9 @@
     ,
     {
       "id": 26,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "Đầm Dáng Ôm Cổ Tròn Phối Tay Phồng LD200",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-dang-om-co-tron-phoi-tay-phong-ld200-2.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
@@ -248,9 +248,29 @@
     ,
     {
       "id": 27,
-      "name": "Áo Dài Truyền Thống In Họa Tiết AD085",
+      "name": "ĐẦM DÁNG DÀI TAY PHỒNG PHỐI CỔ CÁNH BƯỚM LD201",
       "description": "Mô tả sản phẩm",
-      "image": "img/Ao-dai/ao-dai-cach-tan-ta-ngan-tay-lo-in-hoa-tiet-ad088.jpg",
+      "image": "img/Vay-di-bien/dam-dang-dai-tay-phong-phoi-co-canh-buom-ld201.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Quần dài"
+    }
+    ,
+    {
+      "id": 28,
+      "name": "Đầm Cổ Tim Tay Phồng Phối Cúc Ngực LD194",
+      "description": "Mô tả sản phẩm",
+      "image": "img/Vay-di-bien/dam-co-tim-tay-phong-phoi-cuc-ld194-nguc.jpg",
+      "price": 669000,
+      "salePrice": 899000,
+      "category": "Quần dài"
+    }
+    ,
+    {
+      "id": 29,
+      "name": "Đầm Chữ A Phối Tay Phồng Bèo Ngực LD188",
+      "description": "Mô tả sản phẩm",
+      "image": "img/Vay-di-bien/dam-chu-a-phoi-tay-phong-beo-nguc-ld188-4.jpg",
       "price": 669000,
       "salePrice": 899000,
       "category": "Quần dài"
